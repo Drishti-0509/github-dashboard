@@ -1,0 +1,134 @@
+.dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #0d1117;
+  min-height: 100vh;
+  color: white;
+}
+
+.dash-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #30363d;
+}
+
+.dash-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 4px;
+  color: #ffffff;
+}
+
+.dash-header p {
+  color: #8b949e;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+}
+
+.stats span {
+  background: #21262d;
+  color: #58a6ff;
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid #30363d;
+}
+
+.back-btn {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #8b949e;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #21262d;
+  color: white;
+}
+
+.ai-summary {
+  background: linear-gradient(135deg, #161b22, #1c2128);
+  border: 1px solid #30363d;
+  border-left: 3px solid #58a6ff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ai-summary h3 {
+  color: #58a6ff;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ai-summary p {
+  color: #c9d1d9;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.dash-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.loading {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0d1117;
+  color: white;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+
+.loading .sub {
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+.loading button {
+  padding: 10px 20px;
+  background: #238636;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+@media(max-width: 600px) {
+  .dash-grid { grid-template-columns: 1fr; }
+  .dashboard { padding: 1rem; }
+}

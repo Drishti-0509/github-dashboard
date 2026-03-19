@@ -1,0 +1,12 @@
+.repo-list { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 1.5rem; }
+.repo-list h3 { color: #8b949e; margin-bottom: 1rem; font-size: 0.95rem; }
+.repo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.repo-card { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 1rem; text-decoration: none; display: block; }
+.repo-card:hover { border-color: #58a6ff; }
+.repo-top { display: flex; justify-content: space-between; margin-bottom: 6px; }
+.repo-name { color: #58a6ff; font-weight: 600; font-size: 0.95rem; }
+.repo-stars { color: #e3b341; font-size: 0.85rem; }
+.repo-desc { color: #8b949e; font-size: 0.85rem; margin-bottom: 8px; line-height: 1.4; }
+.repo-bottom { display: flex; justify-content: space-between; }
+.repo-lang { color: #58a6ff; font-size: 0.8rem; background: #161b22; padding: 2px 8px; border-radius: 10px; border: 1px solid #30363d; }
+.repo-forks { color: #8b949e; font-size: 0.8rem; }

@@ -1,0 +1,6 @@
+.score-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 1.5rem; text-align: center; }
+.score-card h3 { color: #8b949e; margin-bottom: 1rem; font-size: 0.95rem; }
+.ring-container { position: relative; display: inline-block; margin-bottom: 0.5rem; }
+.score-number { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2rem; font-weight: bold; }
+.score-label { color: #8b949e; font-size: 0.85rem; margin-bottom: 0.5rem; }
+.score-msg { color: #c9d1d9; font-size: 0.95rem; }
